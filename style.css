@@ -61,20 +61,6 @@
 	height: 4px;
 }
 
-/*------------------- TABLET ------------------*/
-@media only screen and ( min-width: 600px ) and ( max-width: 999px ) {
-	.custom_overlay h4 { font-size: 80%;}
-	.custom_overlay p { 
-		font-size: 85%;
-		line-height: 1.2em;
-	}
-}
-
-/*------------------- MOBILE ------------------*/
-@media only screen and ( max-width: 599px ) {
-	.custom_overlay h4 { font-size: 100%;}
-	.custom_overlay p { font-size: 100%;}
-}
 .centrado{
 	color: rgb(255,255,255);
 	background-color: rgba(0,0,0,0.2);
@@ -84,13 +70,36 @@
 	margin-top: 200px;
 	text-align: justify;
 	margin: 200px auto;
-	font-size:0.6vh;
+	font-size:1vh;
 }
+
 .desayuno th, td {
 	padding-left: 15px;
 }
-@media only screen and (min-height: 700px) {
+
+.carousel-caption h2, p{
+	border-style: solid;
+  	border-color: coral;
+}
+
+/*------------------- TABLET ------------------*/
+@media only screen and ( min-width: 600px ) and ( max-width: 999px ) {
+	.custom_overlay h4 { font-size: 80%;}
+	.custom_overlay p { 
+		font-size: 85%;
+		line-height: 1.2em;
+	}
 	.centrado{
-		font-size:1vh;
+		font-size:0.7vh;
 	}
 }
+
+/*------------------- MOBILE ------------------*/
+@media only screen and ( max-width: 599px ) {
+	.custom_overlay h4 { font-size: 100%;}
+	.custom_overlay p { font-size: 100%;}
+	.centrado{
+		font-size:0.6vh;
+	}
+}
+
