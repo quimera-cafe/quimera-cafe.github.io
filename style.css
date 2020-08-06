@@ -11,7 +11,6 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-
 }
 .custom_overlay_wrapper { position: relative; }
 
@@ -66,6 +65,7 @@
 	color: rgb(255,255,255);
 	background-color: rgba(0,0,0,0.2);
 	position: static;
+	max-width: 550px;
 	padding: 0 20px;
 	margin-top: 200px;
 	text-align: justify;
@@ -161,11 +161,11 @@
 	.custom_overlay h4 { font-size: 100%;}
 	.custom_overlay p { font-size: 100%;}
 	.desayuno{
-		font-size:2vh;
+		font-size:10vh;
 	}
 
 	.dulce{
-		font-size:2vh;
+		font-size:3vh;
 	}
 	.coctel{
 		font-size:2vh;
