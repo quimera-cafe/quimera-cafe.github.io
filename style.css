@@ -88,11 +88,15 @@
 	margin-top: 200px;
 	text-align: justify;
 	margin: 200px auto;
-	font-size:0.8vh;
+	font-size:1.3vh;
 }
 
 .desayuno th, td {
 	padding-left: 15px;
+}
+
+.bolero th, td {
+	padding-left: 20px;
 }
 
 .sombreado {
@@ -121,7 +125,7 @@
 		font-size:3vh;
 	}
 	.bolero{
-		font-size:1.1vh;
+		font-size:1vh;
 	}
 }
 
@@ -147,7 +151,7 @@
 		font-size:3vh;
 	}
 	.bolero{
-		font-size:1.1vh;
+		font-size:1vh;
 	}
 }
 
