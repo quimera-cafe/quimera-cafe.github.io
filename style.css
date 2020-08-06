@@ -74,7 +74,7 @@
 }
 .dulce{
 	color: rgb(0,0,0);
-	background-color: rgba(255,255,255,0.2);
+	background-color: rgba(255,255,255,0.3);
 	position: static;
 	max-width: 550px;
 	padding: 0 20px;
@@ -164,7 +164,26 @@
 	.custom_overlay h4 { font-size: 100%;}
 	.custom_overlay p { font-size: 100%;}
 	.desayuno{
+		font-size:3vh;
+	}
+
+	.dulce{
 		font-size:2vh;
+	}
+	.coctel{
+		font-size:2vh;
+	}
+	.cerveza{
+		font-size:3vh;
+	}
+	.vino{
+		font-size:3vh;
+	}
+	.te{
+		font-size:3vh;
+	}
+	.bolero{
+		font-size:1.1vh;
 	}
 }
 
