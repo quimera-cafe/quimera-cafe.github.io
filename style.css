@@ -11,6 +11,7 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+
 }
 .custom_overlay_wrapper { position: relative; }
 
@@ -65,7 +66,6 @@
 	color: rgb(255,255,255);
 	background-color: rgba(0,0,0,0.2);
 	position: static;
-	max-width: 550px;
 	padding: 0 20px;
 	margin-top: 200px;
 	text-align: justify;
@@ -136,7 +136,7 @@
 	margin-top: 200px;
 	text-align: justify;
 	margin: 200px auto;
-	font-size:0.94vh;
+	font-size:0.8vh;
 }
 
 .desayuno th, td {
@@ -161,7 +161,7 @@
 	.custom_overlay h4 { font-size: 100%;}
 	.custom_overlay p { font-size: 100%;}
 	.desayuno{
-		font-size:10vh;
+		font-size:1vh;
 	}
 
 	.dulce{
