@@ -12,54 +12,6 @@
 	-o-background-size: cover;
 	background-size: cover;
 }
-.custom_overlay_wrapper { position: relative; }
-
-.custom_overlay {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	text-align: center;
-	background-color: rgba(255, 255, 255, .9);
-	opacity: 0;
-	-webkit-transition: all 400ms ease-in-out;
-	-moz-transition: all 400ms ease-in-out;
-	-o-transition: all 400ms ease-in-out;
-	transition: all 400ms ease-in-out;
-}
-
-.custom_overlay:hover {
-	opacity: 1;
-}
-
-.custom_overlay_inner {
-	position: absolute;
-	top: 50%;
-	left: 10px;
-	right: 10px;
-	transform: translateY(-50%);
-}
-
-.custom_overlay h4 {
-	position: relative;
-	margin-bottom: 4px;
-}
-
-.custom_overlay p { 
-	color: #000;
-	line-height: 1.4em;
-}
-
-.custom_overlay h4:after {
-	background-color: red;
-	content: "";
-	position: absolute;
-	left: 35%;
-	right: 35%;
-	bottom: 0;
-	height: 4px;
-}
 
 .desayuno{
 	color: rgb(255,255,255);
@@ -70,7 +22,7 @@
 	margin-top: 200px;
 	text-align: justify;
 	margin: 200px auto;
-	font-size:0.94vh;
+	font-size:3vh;
 }
 .dulce{
 	color: rgb(0,0,0);
@@ -163,7 +115,6 @@
 	.desayuno{
 		font-size:0.5vh;
 	}
-
 	.dulce{
 		font-size:3vh;
 	}
