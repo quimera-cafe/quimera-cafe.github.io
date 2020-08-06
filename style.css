@@ -61,7 +61,7 @@
 	height: 4px;
 }
 
-.centrado{
+.desayuno{
 	color: rgb(255,255,255);
 	background-color: rgba(0,0,0,0.2);
 	position: static;
@@ -88,7 +88,7 @@
 		font-size: 85%;
 		line-height: 1.2em;
 	}
-	.centrado{
+	.desayuno{
 		font-size:0.8vh;
 	}
 }
@@ -97,8 +97,8 @@
 @media only screen and ( max-width: 599px ) {
 	.custom_overlay h4 { font-size: 100%;}
 	.custom_overlay p { font-size: 100%;}
-	.centrado{
-		font-size:0.7vh;
+	.desayuno{
+		font-size:2vh;
 	}
 }
 
