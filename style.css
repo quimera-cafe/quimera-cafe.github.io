@@ -22,7 +22,7 @@
 	margin-top: 200px;
 	text-align: justify;
 	margin: 200px auto;
-	font-size:1.3vh;
+	font-size:0.98vh;
 }
 .dulce{
 	color: rgb(0,0,0);
@@ -99,10 +99,35 @@
 	background-color: rgba(0,0,0,0.2);
 }
 
+/*------------------- TABLET ------------------*/
+@media only screen and ( min-width: 600px ) and ( max-width: 999px ) {
+	.desayuno{
+		font-size:1.4vh;
+	}
+	.dulce{
+		font-size:3vh;
+	}
+	.coctel{
+		font-size:2vh;
+	}
+	.cerveza{
+		font-size:3vh;
+	}
+	.vino{
+		font-size:3vh;
+	}
+	.te{
+		font-size:3vh;
+	}
+	.bolero{
+		font-size:1.1vh;
+	}
+}
+
 /*------------------- MOBILE ------------------*/
 @media only screen and ( max-width: 599px ) {
 	.desayuno{
-		font-size:2vh;
+		font-size:1.4vh;
 	}
 	.dulce{
 		font-size:3vh;
