@@ -32,7 +32,7 @@
 	margin-top: 200px;
 	text-align: justify;
 	margin: 200px auto;
-	font-size:2vh;
+	font-size:0.98vh;
 }
 .coctel{
 	color: rgb(255,255,255);
@@ -108,8 +108,7 @@
 		font-size:1.4vh;
 	}
 	.dulce{
-		margin-top: 500px;
-		font-size:2vh;
+		font-size:1.4vh;
 	}
 	.coctel{
 		font-size:2vh;
@@ -134,8 +133,7 @@
 		font-size:1.4vh;
 	}
 	.dulce{
-		margin-top: 500px;
-		font-size:2vh;
+		font-size:1.4vh;
 	}
 	.coctel{
 		font-size:2vh;
